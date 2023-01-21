@@ -119,11 +119,11 @@ object home:
               a(href := "/about")(trans.aboutX("Lichess"), "...")
             )
         ),
-        featured map { g =>
-          div(cls := "lobby__tv")(
-            views.html.game.mini(Pov naturalOrientation g, tv = true)
-          )
-        },
+        // featured map { g =>
+        //   div(cls := "lobby__tv")(
+        //     views.html.game.mini(Pov naturalOrientation g, tv = true)
+        //   )
+        // },
         puzzle map { p =>
           views.html.puzzle.embed.dailyLink(p)(ctx.lang)(cls := "lobby__puzzle")
         },
