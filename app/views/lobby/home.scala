@@ -129,22 +129,22 @@ object home:
         },
         ctx.noBot option bits.underboards(tours, simuls, leaderboard, tournamentWinners),
         bits.lastPosts(lastPost, ublogPosts),
-        div(cls := "lobby__support")(
-          a(href := routes.Plan.index)(
-            iconTag(patronIconChar),
-            span(cls := "lobby__support__text")(
-              strong(trans.patron.donate()),
-              span(trans.patron.becomePatron())
-            )
-          ),
-          a(href := "https://shop.spreadshirt.com/lichess-org")(
-            iconTag(""),
-            span(cls := "lobby__support__text")(
-              strong("Swag Store"),
-              span(trans.playChessInStyle())
-            )
-          )
-        ),
+        // div(cls := "lobby__support")(
+        //   a(href := routes.Plan.index)(
+        //     iconTag(patronIconChar),
+        //     span(cls := "lobby__support__text")(
+        //       strong(trans.patron.donate()),
+        //       span(trans.patron.becomePatron())
+        //     )
+        //   ),
+        //   a(href := "https://shop.spreadshirt.com/lichess-org")(
+        //     iconTag(""),
+        //     span(cls := "lobby__support__text")(
+        //       strong("Swag Store"),
+        //       span(trans.playChessInStyle())
+        //     )
+        //   )
+        // ),
         div(cls := "lobby__about")(
           ctx.blind option h2("About"),
           a(href := "/about")(trans.aboutX("Openchessbase")),
