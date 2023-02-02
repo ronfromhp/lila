@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="lichessClasses">Classes</string>
-  <string name="teachClassesOfChessStudents">Teach classes of chess students with the Lichess Classes tool suite.</string>
+  <string name="teachClassesOfChessStudents">Teach classes of chess students with the Openchessbase Classes tool suite.</string>
   <string name="features">Features</string>
   <string name="quicklyGenerateSafeUsernames">Quickly generate safe usernames and passwords for students</string>
   <string name="trackStudentProgress">Track student progress in games and puzzles</string>
   <string name="messageAllStudents">Message all students about new class material</string>
   <string name="freeForAllForever">100% free for all, forever, with no ads or trackers</string>
-  <string name="applyToBeLichessTeacher">Apply to be a Lichess Teacher</string>
+  <string name="applyToBeLichessTeacher">Apply to be a Openchessbase Teacher</string>
   <string name="noClassesYet">No classes yet.</string>
   <string name="teachersX">Teachers: %s</string>
   <string name="newClass">New class</string>
@@ -23,7 +23,7 @@
   <string name="classDescription">Class description</string>
   <string name="visibleByBothStudentsAndTeachers">Visible by both teachers and students of the class</string>
   <string name="teachersOfTheClass">Teachers of the class</string>
-  <string name="addLichessUsernames">Add Lichess usernames to invite them as teachers. One per line.</string>
+  <string name="addLichessUsernames">Add Openchessbase usernames to invite them as teachers. One per line.</string>
   <string name="resetPassword">Reset password</string>
   <string name="makeSureToCopy">Make sure to copy or write down the password now. You won’t be able to see it again!</string>
   <string name="passwordX">Password: %s</string>
@@ -32,13 +32,13 @@
   <string name="realName">Real name</string>
   <string name="privateWillNeverBeShown">Private. Will never be shown outside the class. Helps remember who the student is.</string>
   <string name="addStudent">Add student</string>
-  <string name="lichessProfileXCreatedForY">Lichess profile %1$s created for %2$s.</string>
+  <string name="lichessProfileXCreatedForY">Openchessbase profile %1$s created for %2$s.</string>
   <string name="studentCredentials">Student:  %1$s
 Username: %2$s
 Password: %3$s</string>
-  <string name="inviteALichessAccount">Invite a Lichess account</string>
-  <string name="inviteDesc1">If the student already has a Lichess account, you can invite them to the class.</string>
-  <string name="inviteDesc2">They will receive a message on Lichess with a link to join the class.</string>
+  <string name="inviteALichessAccount">Invite a Openchessbase account</string>
+  <string name="inviteDesc1">If the student already has a Openchessbase account, you can invite them to the class.</string>
+  <string name="inviteDesc2">They will receive a message on Openchessbase with a link to join the class.</string>
   <string name="inviteDesc3">Important: only invite students you know, and who actively want to join the class.</string>
   <string name="inviteDesc4">Never send unsolicited invites to arbitrary players.</string>
   <string name="createANewLichessAccount">Create a new Lichess account</string>

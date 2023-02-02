@@ -112,11 +112,11 @@ object home:
             div(cls := "about-side")(
               ctx.blind option h2("About"),
               trans.xIsAFreeYLibreOpenSourceChessServer(
-                "Lichess",
+                "Openchessbase",
                 a(cls := "blue", href := routes.Plan.features)(trans.really.txt())
               ),
               " ",
-              a(href := "/about")(trans.aboutX("Lichess"), "...")
+              a(href := "/about")(trans.aboutX("Openchessbase"), "...")
             )
         ),
         // featured map { g =>
